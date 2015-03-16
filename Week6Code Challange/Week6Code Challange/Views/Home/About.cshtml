@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active" id="who"><a href="#">Who</a></li>
+        <li role="presentation" id="what"><a href="#">What</a></li>
+        <li role="presentation" id="why"><a href="#">Why</a></li>
+        <li role="presentation" id="how"><a href="#">How</a></li>
+        <li role="presentation" id="where"><a href="#">Where</a></li>
+    </ul>
+
+    <div id="change-tab">
+        @*DISPLAY BY DEFAULT PARTIAL VIEW "WHO"*@
+        @Html.Partial("Who")
+    </div>
+</div>
